@@ -1,6 +1,12 @@
 ---
 name: minions-availability
-description: Availability snapshots, slot states, and change detection for tent reservations
+id: OC-0108
+version: 1.0.0
+description: "Availability snapshots, slot states, and change detection for tent reservations"
+category: ai
+subcategory: general
+tags: ["minion", "ai", "general"]
+comments:
 ---
 
 # minions-availability — Agent Skills
