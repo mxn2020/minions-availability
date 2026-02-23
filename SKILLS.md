@@ -170,65 +170,28 @@ pnpm add -g @minions-availability/cli
 ```
 
 Set `MINIONS_STORE` env var to control where data is stored (default: `.minions/`).
-Storage uses sharded directories: `.minions/<id[0..1]>/<id[2..3]>/<id>.json`
 
 ### Discover Types
 
 ```bash
-# List all MinionTypes with their fields
 availability types list
-
-# Show detailed schema for a specific type
 availability types show <type-slug>
 ```
 
-### Create
+### CRUD
 
 ```bash
-# Create with shortcut flags
-availability create <type> -t "Title" -s "status" -p "priority"
-
-# Create with full field data
-availability create <type> --data '{ ... }'
-```
-
-### Read
-
-```bash
-# List all Minions of a type
+availability create <type> -t "Title" -s "status"
 availability list <type>
-
-# Show a specific Minion
 availability show <id>
-
-# Search by text
-availability search "query"
-
-# Output as JSON (for piping)
-availability list --json
-availability show <id> --json
-```
-
-### Update
-
-```bash
-# Update fields
 availability update <id> --data '{ "status": "active" }'
-```
-
-### Delete
-
-```bash
-# Soft-delete (marks as deleted, preserves data)
 availability delete <id>
+availability search "query"
 ```
 
 ### Stats & Validation
 
 ```bash
-# Show storage stats
 availability stats
-
-# Validate a Minion JSON file against its schema
 availability validate ./my-minion.json
 ```
