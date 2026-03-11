@@ -6,3 +6,4 @@ description: "Availability snapshots, slot states, and change detection for tent
 priority: high
 deploy_url: null
 tags: null
+category: minion-toolbox
