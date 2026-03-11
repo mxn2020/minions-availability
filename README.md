@@ -1,3 +1,5 @@
+![CI](https://github.com/mxn2020/minions-availability-workspace/actions/workflows/ci.yml/badge.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 # minions-availability
 
 **Availability snapshots, slot states, and change detection for tent reservations**

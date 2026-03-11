@@ -1,0 +1,8 @@
+name: "@minions-availability/cli"
+project_scope: child
+child_type: cli
+parent_project: minions-availability-workspace
+description: "CLI for minions-availability — Availability snapshots, slot states, and change detection for tent reservations"
+priority: high
+deploy_url: null
+tags: null
