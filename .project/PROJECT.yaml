@@ -1,0 +1,16 @@
+name: minions-availability-workspace
+project_scope: main
+project_type: monorepo
+description: Availability snapshots, slot states, and change detection for tent reservations
+tier: prototype
+lane: minions-platform
+priority: medium
+oss: true
+stack: ["typescript"]
+repo: "https://github.com/mxn2020/minions-availability"
+deploy_url: null
+last_active: 2026-03-11
+tags: ["minions-availability-workspace", "minions", "toolbox"]
+notes: null
+id: null
+category: minion-toolbox
