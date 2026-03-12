@@ -1,7 +1,7 @@
 {
   "name": "minions-availability-workspace",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Availability snapshots, slot states, and change detection for tent reservations",
   "type": "module",
   "license": "MIT",
